@@ -1,5 +1,7 @@
 # Payroll-Project
-This Python program utilizes the mysql.connector library to manage a payroll system. It allows adding, displaying, searching, modifying, and deleting employee records in a MySQL database. Additionally, it calculates the final income based on specific parameters such as working days, allowances, and provident fund percentage
+This Python program utilizes the mysql.connector library to manage a payroll system. It allows adding, displaying, searching, modifying, and deleting employee records in a MySQL database. Additionally, it calculates the final income based on specific parameters such as working days, allowances, and provident fund percentage.
+
+Note : Before running the python program, we need to create the database payroll and the table payroll in MySQL and then run the program.
 
 Here's a detailed description of its functionality:
 1. Database Connection: The program establishes a connection to a MySQL database using the mysql.connector library, providing credentials such as host, user, password, and database name.
